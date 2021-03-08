@@ -1,0 +1,74 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#000000;
+    --light:#FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:var(--dark);
+    color:var(--primary);
+    text-align:center;
+    font-size:1.8rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding:10px;
+}
+
+.stock-logo{
+    width:300px;
+    height: 300px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container{
+    background:var(--dark);
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:50px;
+    height:2000px;
+}
+
+div.container div.left h2{
+    color:var(--light);
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+div.container div.left h2 span{
+    color:var(--primary);
+    font-size: 3rem;
+    align-items: center;
+    margin-left: 30px;
+}
+
+div.container div.right p{
+    color:var(--light);
+    font-family: sans-serif;
+    font-weight: medium;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.stock-list-heading-main{
+    list-style-type: none;
+    margin-top:20px;
+    margin-left:40px;
+}
+
+.stock-list-heading{
+    color:var(--primary);
+    margin-right: 70px;
+    font-size: 1.8rem;
+}
